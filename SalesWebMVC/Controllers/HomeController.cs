@@ -18,7 +18,7 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "This is a college project.";
+            ViewData["Message"] = "This site was created by Gabriel M. Carossi, Computer Science student, as a college project. It is a basic DB CRUD for a Department Store, developed in C# using ASP.NET Core MVC. You can explore all the features in the navigation bar!";
             ViewData["Developer"] = "Gabriel M. Carossi";
 
             return View();
